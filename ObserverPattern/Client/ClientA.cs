@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ObserverPattern;
+﻿namespace ObserverPattern;
 
 public sealed class ClientA
 {

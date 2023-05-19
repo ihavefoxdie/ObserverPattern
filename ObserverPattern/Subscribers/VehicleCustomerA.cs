@@ -1,5 +1,4 @@
-﻿
-namespace ObserverPattern;
+﻿namespace ObserverPattern;
 
 public sealed class VehicleCustomerA : ISubscriber
 {
@@ -12,6 +11,6 @@ public sealed class VehicleCustomerA : ISubscriber
     private void PlaceOrderAndUnsub(IPublisher publisher)
     {
         publisher.RemoveSub(this);
-        System.Console.WriteLine(GetType().Name + " unsubbed.");
+        Console.WriteLine(GetType().Name + " unsubbed.");
     }
 }

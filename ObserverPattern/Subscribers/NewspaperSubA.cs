@@ -12,7 +12,7 @@ public sealed class NewspaperSubA : ISubscriber
         else
             Console.WriteLine(GetType().Name + " does not wish to be unsubbed.");
     }
-    
+
     private bool Survey()
     {
         Random rand = new Random();

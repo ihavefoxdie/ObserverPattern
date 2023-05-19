@@ -1,5 +1,4 @@
-﻿
-namespace ObserverPattern;
+﻿namespace ObserverPattern;
 
 public interface ISubscriber
 {

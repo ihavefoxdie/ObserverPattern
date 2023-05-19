@@ -1,5 +1,4 @@
-﻿using System;
-namespace ObserverPattern;
+﻿namespace ObserverPattern;
 
 public sealed class VehicleCustomerB : ISubscriber
 {
